@@ -9,10 +9,6 @@ import Workervps from "@/pages/Workervps";
 import Dockerfleet from "@/pages/Dockerfleet";
 import Dashboard from "@/pages/Dashboard";
 import NotFound from "@/pages/NotFound";
-import Dockerfleet from "./pages/Dockerfleet";
-import Workervps from "./pages/Workervps";
-import Mainvps from "./pages/Mainvps";
-import Dashboard from "./pages/Dashboard";
 
 const App = () => {
   return (
