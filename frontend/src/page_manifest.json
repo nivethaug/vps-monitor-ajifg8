@@ -3,6 +3,7 @@
     "Mainvps",
     "Workervps",
     "Dockerfleet",
+    "Performance",
     "Dashboard"
   ],
   "generated_at": null,

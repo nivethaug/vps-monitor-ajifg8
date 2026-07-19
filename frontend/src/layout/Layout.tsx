@@ -5,6 +5,7 @@ import {
   Network,
   Boxes,
   LayoutDashboard,
+  Gauge,
   RefreshCw,
   LogOut,
   Activity,
@@ -27,6 +28,7 @@ const NAV_ITEMS = [
   { to: "/", label: "Main VPS", icon: Server, end: true },
   { to: "/workervps", label: "Worker VPS", icon: Network, end: false },
   { to: "/dockerfleet", label: "Docker Fleet", icon: Boxes, end: false },
+  { to: "/performance", label: "Performance", icon: Gauge, end: false },
   { to: "/dashboard", label: "Dashboard", icon: LayoutDashboard, end: false },
 ];
 

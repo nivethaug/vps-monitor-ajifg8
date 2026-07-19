@@ -8,6 +8,7 @@ import Mainvps from "@/pages/Mainvps";
 import Workervps from "@/pages/Workervps";
 import Dockerfleet from "@/pages/Dockerfleet";
 import Dashboard from "@/pages/Dashboard";
+import Performance from "@/pages/Performance";
 import NotFound from "@/pages/NotFound";
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
               <Route path="/workervps" element={<Workervps />} />
               <Route path="/dockerfleet" element={<Dockerfleet />} />
               <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="/performance" element={<Performance />} />
               <Route path="*" element={<NotFound />} />
             </Route>
           </Routes>
