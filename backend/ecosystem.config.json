@@ -1,0 +1,22 @@
+{
+  "apps": [
+    {
+      "name": "vps-monitor-ajifg8-backend",
+      "script": "/root/dreampilot/dreampilotvenv/bin/uvicorn",
+      "args": "main:app --host 0.0.0.0 --port 8011",
+      "cwd": "/workspaces/user_24/website/1745_vps-monitor_20260719_073120/backend",
+      "interpreter": "none",
+      "instances": 1,
+      "exec_mode": "fork",
+      "watch": false,
+      "max_memory_restart": "500M",
+      "env": {
+        "PORT": "8011",
+        "BACKEND_HOST": "0.0.0.0",
+        "BACKEND_PORT": "8011",
+        "PROJECT_NAME": "vps-monitor-ajifg8",
+        "DATABASE_URL": "postgresql://vps_monitor_ajifg8_user:YPNiLzzvixlsxzq9pDPYCcuj9AViqVb4@localhost:5432/vps_monitor_ajifg8_db"
+      }
+    }
+  ]
+}
